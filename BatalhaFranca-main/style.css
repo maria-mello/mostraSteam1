@@ -154,7 +154,6 @@ hr{
 }
 
 .Linha{
-    border: 5px solid yellow;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -243,7 +242,7 @@ hr{
   /* Controllers */
   
   .gallery__prev,
-  .gallery__next {
+  .gallery__prox {
     position: absolute;
     top: 50%;
     z-index: 4;
@@ -257,36 +256,47 @@ hr{
     left: 0;
   }
   
-  .gallery__next {
+  .gallery__prox {
     left: 100%;
   }
   
   /* Fotos de fundo */
   
-  .bg-1 {
-    background-image: url(img/Line\ 1.png));
+  .img-1 {
+    background-image: url(img/test.png);
   }
   
-  .bg-2 {
-    background-image: url(img/Line\ 1.png));
+  .img-2 {
+    background-image: url(img/test1.png);
   }
   
-  .bg-3 {
-    background-image: url(img/Line\ 1.png));
+  .img-3 {
+    background-image: url(img/test2.png);
   }
   
-  .bg-4 {
-    background-image: url(img/Line\ 1.png));
+  .img-4 {
+    background-image: url(img/test3.png);
   }
   
-  .bg-5 {
-    background-image: url(img/Line\ 1.png));
+  .img-5 {
+    background-image: url(img/Line\);
   }
   
-  .bg-6 {
-    background-image: url(img/Line\ 1.png));
+  .img-6 {
+    background-image: url(img/Line\ );
   }
   
-  .bg-7 {
-    background-image: url(img/Line\ 1.png));
+  .img-7 {
+    background-image: url(img/Line\ );
+  }
+
+  figcaption{
+    color: black;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
   }
