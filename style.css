@@ -114,7 +114,7 @@ p{
 }
 
 hr{
-  margin-top: 1.3%;
+  margin-top: 0.8%;
   height: 6px;
   width: 110%;
   background-color: #FFFFFF;
@@ -130,7 +130,7 @@ hr{
   color: #FFFFFF;
   text-align: justify;
   margin: 5%; 
-  margin-top: 40%;
+  margin-top: 30%;
   text-indent: 4ch;
   display: flex;
   justify-content: space-around;
@@ -138,12 +138,12 @@ hr{
 }
 
 .contingente{
-display: flex;
-flex-direction: row;
-color: #FFFFFF;
-font-size: 130%;
-text-align: justify;
-margin: 5%;
+  display: flex;
+  flex-direction: row;
+  color: #FFFFFF;
+  font-size: 130%;
+  text-align: justify;
+  margin: 5%;
 }
 
 .imagensContingente{
@@ -151,18 +151,24 @@ margin: 5%;
 }
 
 .tituloLinha{
-  margin-left: 5%;
-}
-
-.Linha{
+  margin: 1%;
+  padding: 5px;
+  font-size: x-large;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column-reverse;
+}
+
+.Linha{
+  margin-top: 10%;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   top: 100%;
   transform: translateX(21%);
-  width: 70%;
+  width: 90%;
   height: 50%;
   max-height: 100vw;
   overflow: hidden;
@@ -279,8 +285,8 @@ margin: 5%;
   background-image: url(img/test3.png);
 }
 
-/* .img-5 {
-  background-image: url(img/Line\);
+.img-5 {
+  background-image: url(img/test4.png);
 }
 
 .img-6 {
@@ -289,7 +295,7 @@ margin: 5%;
 
 .img-7 {
   background-image: url(img/Line\ );
-} */
+}
 
 figcaption{
   color: black;
