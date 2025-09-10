@@ -79,7 +79,6 @@ a{
   width: 100vw;
   height: 100vh;
   padding: 0;
-
 }
 
 .title{
@@ -105,19 +104,28 @@ a{
   margin-top: -6%;
   margin-left: 2%;
   font-size: 150%;
+  position: absolute;
 }
 
 p{
-  margin: 2px;
+  margin: 0;
+}
+
+p.txtConteudo, strong{
+  margin: 4%;
   position: relative;
 }
 
+strong{
+  font-size: large;
+}
+
 hr{
-  margin-top: 0.8%;
   height: 6px;
   width: 110%;
   background-color: #FFFFFF;
   position: sticky;
+  margin-top: -10px;
 }
 
 .textoResumo{
@@ -129,7 +137,7 @@ hr{
   color: #FFFFFF;
   text-align: justify;
   margin: 5%; 
-  margin-top: 8%;
+  margin-top: 3%;
   text-indent: 4ch;
   display: flex;
   justify-content: space-around;
@@ -142,13 +150,13 @@ hr{
   margin: 5%; 
   text-indent: 4ch;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
 .textoContingente{
   margin-top: 10%;
-  width: 40%;
+  width: 50%;
   font-size: 130%;
 }
 
@@ -156,8 +164,8 @@ hr{
   gap: 80px;
   margin-top: 5%;
   img{
-    width: 80%;
-    height: 90%;
+    width: 70%;
+    height: 80%;
   }
 }
 
@@ -174,7 +182,7 @@ hr{
   font-size: 350%;
 }
 
-.linhaTempo, .linhaTempo2, .linhaTempo3{
+.linhaTempo, .linhaTempo3{
   width: 100%;
   height: 50vh;
   display: flex;
@@ -183,6 +191,16 @@ hr{
   align-items: center;
   gap: 2%;
 } 
+
+.linhaTempo2{
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+}
 
 .imagem1, .imagem2, .imagem3{
   width: 500px;
@@ -203,11 +221,9 @@ hr{
   position: absolute;
   background: rgba(0, 0, 0, 0.6);
   display: block;
-  position: absolute;
   text-align: justify;
   opacity: 0;
   transition: 0.6s;
- 
 }
 
 .conteudo:hover, .conteudo2:hover, .conteudo3:hover{
@@ -217,4 +233,18 @@ hr{
 .linhasTempo{
   margin: 5%;
   padding: 3%;
+}
+
+#SetaBaixo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 89%;
+}
+
+#SetaBaixo1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8.9%;
 }
