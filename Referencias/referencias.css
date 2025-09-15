@@ -1,0 +1,181 @@
+body{
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  background-color: #011640;
+  overflow-x: hidden;
+  padding: 0;
+}
+
+.josefin-sans {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500px;
+  font-style: normal;
+}
+
+.kalnia {
+  font-family: "Kalnia", serif;
+  font-optical-sizing: auto;
+  font-weight: 500px;
+  font-style: normal;
+}
+
+.title{
+  font-family: "Kalnia", serif;
+}  
+
+.header{
+  width: 100%;
+  font-family: "Josefin Sans", sans-serif;
+  background-color: #001F3F;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-color: #FFFFFF;
+  filter: drop-shadow(8px 8px 10px rgba(255, 255, 255, 0.877));
+  z-index: 1;
+  position: fixed;
+}
+
+h2{
+  margin: 1%;
+}
+
+h1{
+  font-family: "Kalnia", serif;
+  color: white;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-evenly;
+  width: 40%;
+}
+
+a{
+  color: #FFFFFF;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.divisoriaH{
+  width: 0.5%;
+}
+
+.bannerA{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  position: sticky;
+  border: none;
+}
+
+.imagemB{
+  margin: 0;
+  position: relative;
+  width: 100vw;
+  height: 80vh;
+  padding: 0;
+}
+
+.title{
+  position: absolute;
+  z-index: 1;
+  color: #FFFFFF;
+  font-size: 60px;
+}
+
+.bannerB{
+  color: #FFFFFF;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  margin-top: -6%;
+  margin-left: 2%;
+  font-size: 150%;
+  position: sticky ;
+}
+
+hr{
+  height: 6px;
+  width: 110%;
+  background-color: #FFFFFF;
+  position: sticky;
+}
+
+.titulo{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.subtitulo{
+  font-size: 150%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  color: white;
+}
+
+.descricao{
+  width: 50%;
+  margin: 5%;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 130%;
+  text-align: center;
+}
+
+.livrosReferencia{
+  h1{
+    font-size: 300%;
+  }
+  height: 90%;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5%;
+  margin-top: -4%;
+}
+
+.imgLivros{
+  margin: 5%;
+  height: 500px;
+  width: 350px;
+}
+
+.livro{
+  margin-top: -5%;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.fundo{
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #57647D;
+
+}
+
+.livros, .titulo{
+  margin: 2%;
+}
+
+.imgLivros, img{
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out; 
+}
+
+imgLivros:hover {
+  transform: scale(1.2);
+}

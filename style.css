@@ -174,17 +174,17 @@ hr{
 }
 
 .tituloLinha{
-  margin-top: -10%;
+  margin-top: -5%;
   padding: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 350%;
+  font-size: 250%;
 }
 
 .linhaTempo, .linhaTempo3{
-  width: 100%;
-  height: 50vh;
+  width: 90%;
+  height: 40vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -193,8 +193,8 @@ hr{
 } 
 
 .linhaTempo2{
-  width: 100%;
-  height: 50vh;
+  width: 90%;
+  height: 40vh;
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
@@ -233,18 +233,35 @@ hr{
 .linhasTempo{
   margin: 5%;
   padding: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 #SetaBaixo{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 89%;
+  margin-left: 71%;
 }
 
 #SetaBaixo1{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 8.9%;
+  margin-right: 71%;;
+}
+
+.fontesUtilizadas{
+  background-color: #57647D;
+  color: rgba(255, 255, 255, 0.658);
+  margin: 5%;
+  margin-top: -7%;
+  padding: 3%;
+  font-style: italic;
+  a{
+    color: rgba(255, 255, 255, 0.658);
+    text-decoration: underline;
+  }
 }
