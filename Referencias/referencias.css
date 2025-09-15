@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body{
   font-family: 'Times New Roman', Times, serif;
   margin: 0;
@@ -178,4 +182,17 @@ hr{
 
 imgLivros:hover {
   transform: scale(1.2);
+}
+
+.fontesUtilizadas{
+  background-color: #57647D;
+  color: rgba(255, 255, 255, 0.658);
+  margin: 5%;
+  margin-top: -7%;
+  padding: 3%;
+  font-style: italic;
+  a{
+    color: rgba(255, 255, 255, 0.658);
+    text-decoration: underline;
+  }
 }
