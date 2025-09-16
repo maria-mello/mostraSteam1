@@ -281,3 +281,24 @@ hr{
     text-decoration: underline;
   }
 }
+
+.mapinha{
+margin-bottom: 8%;
+}
+
+.tituloM{ 
+color: rgba(255, 255, 255, 0.658);
+margin:5%;
+margin-top: -5%;
+margin-bottom: -3%;
+font-size: 250%;
+text-align: center;
+}
+
+.textMapa{
+  margin-bottom: -3%;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 5%;
+  color: white;
+}
